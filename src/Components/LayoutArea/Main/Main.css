@@ -1,0 +1,14 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:thistle;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* Critical....Don't forget it */
+.Routing{
+    height:100%; 
+}

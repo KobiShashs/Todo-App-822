@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/LayoutArea/Header/Header';
+import Main from './Components/LayoutArea/Main/Main';
+import TodoItem from './Components/TodoArea/TodoItem/TodoItem';
+import TodoList from './Components/TodoArea/TodoList/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Main/>
+      {/* <h1>Todo App</h1>
+
+      <TodoList/> */}
+
+      {/* <TodoItem id={0} title={'title'} description={'bla bla'} group={'React'} when={new Date()}/> */}
     </div>
   );
 }
